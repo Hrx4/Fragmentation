@@ -42,7 +42,7 @@ export const BurnPage = () => {
 
   //coinData Hook
 
-  const { coinData, setCoinData } = useCoinData();
+  const { coinData } = useCoinData();
 
   //BurnAmount Hook
 

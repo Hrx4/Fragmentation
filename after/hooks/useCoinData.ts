@@ -13,7 +13,7 @@ const useCoinData = () => {
       });
   }, []);
 
-  return { coinData, setCoinData };
+  return { coinData };
 };
 
 export default useCoinData;
